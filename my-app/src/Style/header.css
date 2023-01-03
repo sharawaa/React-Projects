@@ -1,16 +1,37 @@
+#container{
+   width: 100%;
+   background-color:rgb(248,249, 249);
+   /* position: sticky; */
+}
+
+
+
 header ul{
+    
     display: flex;
-    background-color:rgb(248,249, 249);
-    gap: 30px
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    
+    gap: 20px
     
 };
 
-ul{
+header ul li{
     list-style: none;
+   
+   
 
 }
-a{
-    text-decoration: none;
+
+.li{
+    list-style: none;
+    /* align-content: center; */
+    margin-top: 10px;
+}
+#basic-addon2{
+    width: 400px;
 }
 
 

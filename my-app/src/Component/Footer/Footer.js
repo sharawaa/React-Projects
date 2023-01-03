@@ -1,4 +1,10 @@
-import Card from "./Card";
+//import Card from "./Card";
+import Card2 from "./card2"
+
 export default function Footer(){
-    return <>hello im footer <Card /></>
+    return <> 
+    {/* <Card /> */}
+    <Card2 />
+
+    </>
 }

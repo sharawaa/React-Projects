@@ -1,56 +1,33 @@
 import "../Style/header.css";
-import Button from "react-bootstrap/Button"
-import Dropdown from 'react-bootstrap/Dropdown';
-import DropdownButton from 'react-bootstrap/DropdownButton';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
+
+// import DropdownButton from 'react-bootstrap/DropdownButton';
 
 export default function Header(){
     return(
+      <div id="container">
      <header>
         <ul>
-            <li><img src="./stackoverflow-ar21.svg" alt="" /></li>
-            <li>
-            <Dropdown>
-      <Dropdown.Toggle variant="" id="Our company">
-        Follow us
-      </Dropdown.Toggle>
-
-      <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-      </Dropdown.Menu>
-    </Dropdown>
-            </li>
+            <li className="li"><img src="./stack-overflow-wordmark.svg" alt="stack" /></li>
+            <li className="li"><Button variant="light">About</Button>{' '}</li>
+            <li className="li"><Button variant="light">Products</Button>{' '}</li>
+            <li className="li"><Button variant="light">For Teams</Button>{' '}</li>
+            <li className="li"><InputGroup className="mb-3">
+        <InputGroup.Text id="basic-addon1"><img src="search-svgrepo-com.svg" alt="" /></InputGroup.Text>
+        <Form.Control id="basic-addon2"
+          placeholder="search.."
+          aria-label="Username"
+          aria-describedby="basic-addon1"
+        />
+      </InputGroup></li>
+      <li className="li"><Button variant="secondary">Log in</Button>{' '}</li>
+      <li className="li"><Button variant="primary">Sign Up</Button>{' '}
+      </li>
             
-            <a href="">Careers</a>
-
-            <li>
-                <a href="">Careers</a>
-            </li>
-
-            <li>
-                <a href="">Open position</a>
-            </li>
-
-            <li>
-            <Dropdown>
-      <Dropdown.Toggle variant="" id="Our company">
-        Follow us
-      </Dropdown.Toggle>
-
-      <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-      </Dropdown.Menu>
-    </Dropdown>
-            </li>
-            <li>
-            <Button variant="primary">Contact</Button>
-            </li>
-            <div className="custom"></div>
-            
-        </ul>
+        </ul> 
      </header>   
+     </div>
     )
 }

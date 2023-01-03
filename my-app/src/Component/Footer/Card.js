@@ -17,17 +17,13 @@ export default function Footer(){
       </Card.Body>
     </Card>
     </section>
-
     <section>
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="./8666778_download_down_save_icon.png" />
       <Card.Body>
-        
+  
         <Card.Text>
-         
-
-
-To share feedback about our platform ,
+         To share feedback about our platform ,
 
 
         </Card.Text>
@@ -49,4 +45,4 @@ To share feedback about our platform ,
     </Card>
     </section>
 </div>
-)}
+)};
