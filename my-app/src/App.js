@@ -1,44 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
-
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./Component/Header";
+import Footer from "./Component/Footer/Footer"
+import { getQueriesForElement } from "@testing-library/react";
 
 function App() {
-
-  const name ="sharva"
-const myStyle ={
-  color: "red",
-  fontSize: "50px",
-}
-
-const customStyle ={
-  color: "red",
-  fontSize: "20px",
-}
-
-
-  function getGreeting(name){
-    if(name==="sharva"){
-      return(
-        <div className='App'>
-        <h1 style={customStyle}>Hello, {name}!</h1>
-
-        </div>
-      );
-    }
-return <div className='App'>
-
   
-<h1 style={myStyle}> Hello , {name}</h1>
-
-
-</div>
-
-
-  }
-  console.log(name)
-  
+  return (
+    <div className="App">
+      <Header />
+     <Footer />
+    </div>
+  );
 }
-
-
 export default App;
