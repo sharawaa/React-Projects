@@ -5,7 +5,9 @@
     
     background-color: rgb(36, 38, 41);
 }
-
+p{
+    text-align: left;
+}
 #cont2{
     display: flex;
     max-width: 1200px;
@@ -16,27 +18,19 @@
 #exchange{
     margin-left: 50px;
 }
-#exchange p{
-    display: flex;
-}
+
 #company{
     margin-left: 50px;
 }
-#company p{
-    display: flex;
-}
+
 #product{
     margin-left: 50px;
 }
-#product p{
-    display: flex;
-}
+
 #overflow{
     margin-left: 50px;
 }
-#overflow p{
-    display: flex;
-}
+
 #blog{
     margin-left: 50px;
 }

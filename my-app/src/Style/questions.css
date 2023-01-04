@@ -1,4 +1,7 @@
  #top{
      display: flex;
-     margin: auto;
+     justify-content: space-between;
+    
+     border-bottom: solid 1px darkblue;
+     
 }

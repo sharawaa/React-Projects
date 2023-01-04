@@ -1,0 +1,12 @@
+#prop{
+    display: flex;
+    align-content: space-between;
+    border-bottom: solid 1px darkblue;
+}
+
+    
+#title{
+    width: 500px;
+    text-align: left;
+    margin-left: 50px;
+}
