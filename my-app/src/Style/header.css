@@ -10,12 +10,13 @@
 header ul{
     position: sticky;
     display: flex;
-    max-width: 1200px;
+    max-width: 1500px;
     margin: auto;
     flex-wrap: nowrap;
     align-content: flex-end;
     
-    gap: 20px
+    gap: 20px;
+
     
 };
 

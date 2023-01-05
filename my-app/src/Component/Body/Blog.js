@@ -5,15 +5,15 @@ import Logo from "./Logo";
 const logos = [
   {
     
-    img: "https://static.vecteezy.com/system/resources/previews/003/731/316/original/web-icon-line-on-white-background-image-for-web-presentation-logo-icon-symbol-free-vector.jpg",
-    description1: "observable object that I want to listen for changes on. … So I guess my question is: do React components need to have state in order to rerender? Is th",
+    img: "https://www.svgrepo.com/show/303109/adobe-xd-logo.svg",
+    description1: "Idiom for a schoolboy being purposely overly verbose only to make an essay look longer",
     
    
   },
   {
    
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQs1qzX0vcbvxBob5xjcnf7yqutumhsnk_BG09M5cLCv7J6FNr8C27QtAlxJnOCheq6lrg&usqp=CAU",
-    description1: "(to the component), observable object that I want to listen for changes on. … So I guess my question is: do React components need to have state in order to rerender? Is th",
+    img: "https://www.svgrepo.com/show/303154/instagram-2016-logo.svg",
+    description1: "Difference between detonate and explode",
   },]
 
 export default function Body(){
@@ -46,11 +46,14 @@ return(<>
       </Card>
 
       </section>
+      <section><h4>Hot Network Questions</h4></section>
 
-      <section>
+      <section id="logos">
         <Logo img={logos[0].img}
-        description1={logos[0].img}
+        description1={logos[0].description1}
         />
+        <Logo img={logos[1].img}
+                description1={logos[1].description1}/>
       </section>
 
 

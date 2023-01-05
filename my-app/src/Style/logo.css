@@ -1,0 +1,12 @@
+#logo{
+    display: flex;
+    width: 400px;
+}
+p{
+    font-size: 13px;
+    margin-left: 10px;
+}
+#img{
+    height: 20px;
+    width: 20px;
+}
